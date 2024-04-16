@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Test från backend</title>
+</head>
+<body>
+<h1 id="backend">Hej, detta är en sida som visas med hjälp av backend</h1>
+<form action="http://localhost:3000/user" method="post">
+    <label>
+        E-postadress
+        <input
+          name="email"
+          placeholder="E-postadress"
+          value=""
+        />
+      </label>
+      <label>
+        Lösenord
+        <input
+          name="password"
+          placeholder="Lösenord"
+          type="password"
+          value=""
+        />
+      </label>
+      <input type="submit" value="Skicka" />
+</form>
+</body>
+</html>
