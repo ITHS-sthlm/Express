@@ -41,3 +41,4 @@ app.delete('/', (res,req) => {
 app.listen(port, () => {
     console.log(`Jippe servern är igång på port: ${port}`)
 })
+
